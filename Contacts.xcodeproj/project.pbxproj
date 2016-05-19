@@ -14,6 +14,9 @@
 		E82494C51CDCD3A400B5B1F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82494C31CDCD3A400B5B1F1 /* LaunchScreen.storyboard */; };
 		E82494D01CDCD3A400B5B1F1 /* ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82494CF1CDCD3A400B5B1F1 /* ContactsTests.swift */; };
 		E82494DB1CDCD3A400B5B1F1 /* ContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82494DA1CDCD3A400B5B1F1 /* ContactsUITests.swift */; };
+		E82494EB1CE23C7900B5B1F1 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82494EA1CE23C7900B5B1F1 /* ContactsTableViewController.swift */; };
+		E82494ED1CE2407200B5B1F1 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82494EC1CE2407200B5B1F1 /* Contact.swift */; };
+		E8718B931CEE16E6007332BA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8718B921CEE16E6007332BA /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		E82494D61CDCD3A400B5B1F1 /* ContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82494DA1CDCD3A400B5B1F1 /* ContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsUITests.swift; sourceTree = "<group>"; };
 		E82494DC1CDCD3A400B5B1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82494EA1CE23C7900B5B1F1 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		E82494EC1CE2407200B5B1F1 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		E8718B921CEE16E6007332BA /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		E82494AE1CDCD3A400B5B1F1 = {
 			isa = PBXGroup;
 			children = (
+				E82494EA1CE23C7900B5B1F1 /* ContactsTableViewController.swift */,
 				E82494B91CDCD3A400B5B1F1 /* Contacts */,
 				E82494CE1CDCD3A400B5B1F1 /* ContactsTests */,
 				E82494D91CDCD3A400B5B1F1 /* ContactsUITests */,
@@ -100,6 +107,8 @@
 				E82494BA1CDCD3A400B5B1F1 /* AppDelegate.swift */,
 				E82494BC1CDCD3A400B5B1F1 /* ViewController.swift */,
 				E82494BE1CDCD3A400B5B1F1 /* Main.storyboard */,
+				E8718B921CEE16E6007332BA /* DetailViewController.swift */,
+				E82494EC1CE2407200B5B1F1 /* Contact.swift */,
 				E82494C11CDCD3A400B5B1F1 /* Assets.xcassets */,
 				E82494C31CDCD3A400B5B1F1 /* LaunchScreen.storyboard */,
 				E82494C61CDCD3A400B5B1F1 /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82494ED1CE2407200B5B1F1 /* Contact.swift in Sources */,
 				E82494BD1CDCD3A400B5B1F1 /* ViewController.swift in Sources */,
+				E8718B931CEE16E6007332BA /* DetailViewController.swift in Sources */,
 				E82494BB1CDCD3A400B5B1F1 /* AppDelegate.swift in Sources */,
+				E82494EB1CE23C7900B5B1F1 /* ContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				E82494E11CDCD3A400B5B1F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E82494E21CDCD3A400B5B1F1 /* Build configuration list for PBXNativeTarget "ContactsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				E82494E41CDCD3A400B5B1F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E82494E51CDCD3A400B5B1F1 /* Build configuration list for PBXNativeTarget "ContactsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				E82494E71CDCD3A400B5B1F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
